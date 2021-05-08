@@ -2,25 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #8d9096;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
   color: white;
 }
 
@@ -28,11 +18,42 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.head_text {
+  display: flex;
+}
+
+p {margin-left: 20px;}
+
+.search-field, .render-block {
+  display: flex;
+  align-self: center;
+}
+
+h1{
+  color: red;
+}
+
+input {
+  width: 600px;
+  height: 60px;
+}
+button {
+  height: 60px;
+}
+
+.banner {
+  width: 600px;
+  height: 80px;
+  background: url("https://a-static.besthdwallpaper.com/bystrye-i-yarostnye-podarki-hobbs-i-shou-oboi-2800x1050-18828_88.jpg") no-repeat  center top / cover;
+}
+
+
+.under-banner {
+  display: flex;
+}
+
+h3 {
+  margin-left: 20px;
 }
